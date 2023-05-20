@@ -2,6 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+li {
+  list-style: none;
+}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -25,6 +28,7 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration-line: none;
 }
 .menu-link:hover {
   color: #2196f3;
@@ -38,6 +42,7 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration-line: none;
 }
 .cont-link:hover {
   color: #2196f3;
