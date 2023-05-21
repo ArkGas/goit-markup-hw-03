@@ -202,11 +202,14 @@ article:last-child {
   width: 270px;
   height: 368px;
   margin: 0 auto;
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .person-text-box {
   width: 270px;
-  background-color: #ffffff;
 }
 
 .team-title {
@@ -218,14 +221,23 @@ article:last-child {
   padding-top: 94px;
 }
 .team-name {
-  font-size: 16px;
-  line-height: 1.2;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 99px;
+  margin-left: 99px;
 }
 .team-function {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 19px;
   color: #757575;
+  margin-top: 0;
+  margin-right: 61px;
+  margin-bottom: 30px;
+  margin-left: 62px;
+  font-size: 14px;
 }
 
 .adres {
