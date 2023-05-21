@@ -9,6 +9,9 @@ body {
 li {
   list-style: none;
 }
+header {
+  border-bottom: 1px solid #ececec;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
