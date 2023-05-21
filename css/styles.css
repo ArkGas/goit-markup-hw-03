@@ -5,17 +5,17 @@ body {
   width: 1600px;
   margin: 0px;
 }
-.container {
-  width: 1200px;
-  margin: 0;
-}
+
 li {
   list-style: none;
 }
-.header-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.menu-box {
+}
+.cont-box {
 }
 .logo {
   font-family: "Raleway";
@@ -33,10 +33,6 @@ li {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
-}
-menu {
-  display: flex;
-  white-space: break-spaces;
 }
 .menu-link {
   color: #212121;
@@ -69,14 +65,15 @@ menu {
 .section {
   padding-block: 94px;
 }
-
 .box-title {
-  background: #2f303a;
+  background-color: #2f303a;
+  min-height: 600px;
+}
+.item-title {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .text-title {
   color: #ffffff;
   font-weight: 900;
@@ -116,9 +113,7 @@ menu {
   background-color: #2196f3;
   color: #ffffff;
 }
-.lorem {
-  display: flex;
-}
+
 .title-do {
   font-weight: 700;
   font-size: 14px;
@@ -132,11 +127,15 @@ menu {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.what-box {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.lorem {
+  display: flex;
 }
+.what-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .what-do {
   font-weight: 700;
   font-size: 36px;
@@ -145,15 +144,26 @@ menu {
   letter-spacing: 0.03em;
   width: 1170px;
 }
-.team-box {
-  display: flex;
+
+.team-background {
+  background: #f5f4fa;
+  margin: 0 auto;
+  min-height: 648px;
 }
 .team {
-  background: #f5f4fa;
+  display: flex;
+  justify-content: center;
 }
-figcaption {
+.person {
+  width: 270px;
+  height: 368px;
+}
+
+.person-text-box {
+  width: 270px;
   background-color: #ffffff;
 }
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -171,18 +181,7 @@ figcaption {
   line-height: 1.2;
   color: #757575;
 }
-.jdpd {
-  margin: auto;
-}
-.jdfd {
-  margin: auto;
-}
-.jdm {
-  margin: auto;
-}
-.jdui {
-  margin: auto;
-}
+
 .adres {
   color: #ffffff;
   font-size: 14px;
