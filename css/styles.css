@@ -135,6 +135,7 @@ header {
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
+  border-radius: 4px;
 }
 .btn:hover {
   background-color: #2196f3;
@@ -280,13 +281,8 @@ article:last-child {
 .flex-button {
   display: flex;
   gap: 8px;
-  margin-left: 510px;
-  margin-top: 94px;
-  margin-bottom: 34px;
-  margin-right: 518px;
-  padding-left: 0px;
-  width: 572px;
-  height: 54px;
+  width: 100%;
+  justify-content: center;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -303,4 +299,8 @@ article:last-child {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   margin: 0 auto;
+}
+.left {
+  display: flex;
+  align-items: center;
 }
